@@ -1,0 +1,146 @@
+/*Importing fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&family=Texturina:ital,opsz,wght@1,12..72,500;1,12..72,600;1,12..72,900&display=swap'); 
+/*Add style on body*/
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(28, 35, 51);
+}
+/*Add style on slider*/
+#slider{
+  overflow: hidden;
+  margin-top: -20px;
+}
+#slideshow-container img {
+  height: 800px;
+  min-height: 400px;
+  line-height: 400px;
+}
+#slider figure{
+  position: relative;
+  width: 500%;
+  margin: 0;
+  left: 0;
+  animation: 15s slider infinite;
+}
+#slider figure img{
+  float: left;
+  width: 20%;
+}
+@keyframes slider{
+  0%{
+    left: 0;
+  }
+  20%{
+    left: 0;
+  }
+  25%{
+    left: -100%;
+  }
+  45%{
+    left: -100%;
+  }
+  50%{
+    left: -200%;
+  }
+  70%{
+    left: -200%;
+  }
+  75%{
+    left: -300%;
+  }
+  95%{
+    left: -300%;
+  }
+  100%{
+    left: -400%;
+  }
+}
+/*Add style on paragraphs*/
+h1{
+  color: #efe7b9;
+  font-size: 200%;
+}
+h2{
+  color: #efe7b9;
+  font-size: 187%;
+}
+p{
+  color: #d08d2f;
+  text-decoration: none;
+  text-align: center;
+  font-size: 150%;
+}
+/*Add header*/
+header {
+  bottom: 8px;
+  padding: 8px;
+  color: black;
+  font-size: 25px;
+  text-align: center;
+  font-family: 'Kanit', sans-serif;
+  background-color: #b5b5b5;
+  border-bottom: 3px solid purple;
+}
+/*Add footer to pages*/
+footer {
+  bottom: -500px;
+  left: 0px;
+  width: 100%;
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  position: absolute;
+  line-height: 40px;
+  background-color: #01182d;
+}
+/*Add short footer to pages*/
+#short-footer {
+  bottom: -150px;
+  left: 0px;
+  width: 100%;
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  position: absolute;
+  line-height: 40px;
+  background-color: #01182d;
+}
+/*Add medium-short footer*/
+#medium-short-footer {
+  bottom: -295px;
+  left: 0px;
+  width: 100%;
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  position: absolute;
+  line-height: 40px;
+  background-color: #01182d;
+}
+/*Add medium footer*/
+#medium-footer {
+  bottom: -390px;
+  left: 0px;
+  width: 100%;
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  position: absolute;
+  line-height: 40px;
+  background-color: #01182d;
+}
+/*Add long footer to pages*/
+#long-footer {
+  bottom: -680px;
+  left: 0px;
+  width: 100%;
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  position: absolute;
+  line-height: 40px;
+  background-color: #01182d;
+}
