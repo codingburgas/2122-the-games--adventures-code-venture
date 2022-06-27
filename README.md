@@ -43,4 +43,7 @@ In our game you can move when you use a combination of keys on the keyboard.
 There are four types of platforms in our game “Normal”, “Finish”, “Spawn point” and “Moving platform”.
 ```
 ---------------------------------------------- --------------------------------------
+## How to download the game
 
+- Open the website and press "Download" on the navigation bar
+---------------------------------------------- --------------------------------------
