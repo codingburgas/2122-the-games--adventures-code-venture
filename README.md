@@ -46,4 +46,6 @@ There are four types of platforms in our game “Normal”, “Finish”, “Spa
 ## How to download the game
 
 - Open the website and press "Download" on the navigation bar
+
+- <a href="https://codingburgas-my.sharepoint.com/personal/kblambov20_codingburgas_bg/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fkblambov20%5Fcodingburgas%5Fbg%2FDocuments%2FCode%20Venture%20Game%2FLava%20cube%2Erar&parent=%2Fpersonal%2Fkblambov20%5Fcodingburgas%5Fbg%2FDocuments%2FCode%20Venture%20Game&ga=1">Or click here
 ---------------------------------------------- --------------------------------------
